@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Mpura Stews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-wrapper">
+      <a href="index.html" class="logo">Mpura<span>Stews</span></a>
+      <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#products" class="nav-cta">Shop Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p>A look inside Mpura — our products, our kitchen, and the people who love our stews.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="gallery-filter">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Products</button>
+        <button class="filter-btn">Behind the Scenes</button>
+        <button class="filter-btn">Happy Customers</button>
+        <button class="filter-btn">Retail</button>
+      </div>
+      <div class="gallery-grid">
+        <!-- 1 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=500&q=80" alt="Kasi Style Beef Stew"></div>
+          <div class="gallery-overlay"><span>Kasi Beef Stew</span></div>
+        </div>
+        <!-- 2 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=500&q=80" alt="Cape Malay Chicken Stew"></div>
+          <div class="gallery-overlay"><span>Cape Malay Chicken</span></div>
+        </div>
+        <!-- 3 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=500&q=80" alt="Cooking in the kitchen"></div>
+          <div class="gallery-overlay"><span>Behind the Scenes</span></div>
+        </div>
+        <!-- 4 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=500&q=80" alt="Fresh ingredients being prepped"></div>
+          <div class="gallery-overlay"><span>Fresh Ingredients</span></div>
+        </div>
+        <!-- 5 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=500&q=80" alt="Customer enjoying a meal"></div>
+          <div class="gallery-overlay"><span>Happy Customers</span></div>
+        </div>
+        <!-- 6 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=500&q=80" alt="Food display on shelf"></div>
+          <div class="gallery-overlay"><span>Retail Shelf</span></div>
+        </div>
+        <!-- 7 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80" alt="Xitsonga Vegetable Stew plated"></div>
+          <div class="gallery-overlay"><span>Xitsonga Veggie Stew</span></div>
+        </div>
+        <!-- 8 -->
+        <div class="gallery-item">
+          <div class="gallery-placeholder"><img src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=500&q=80" alt="The Mpura team at work"></div>
+          <div class="gallery-overlay"><span>The Mpura Team</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Want to See Your Photo Here?</h2>
+      <p>Tag us on social media with #MpuraStews and share your meal moments!</p>
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      <a href="index.html#products" class="btn btn-accent">Shop Flavours</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Mpura<span>Stews</span></div>
+          <p>Real home-cooked stews made for busy South Africans. No preservatives, just authentic flavour.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Our Flavours</h4>
+          <a href="index.html#products">Kasi Style Beef</a>
+          <a href="index.html#products">Cape Malay Chicken</a>
+          <a href="index.html#products">Xitsonga Vegetable</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <p>Johannesburg, South Africa</p>
+          <p>info@mpurastews.co.za</p>
+          <p>+27 12 345 6789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mpura Stews. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">FB</a>
+          <a href="#">IG</a>
+          <a href="#">TW</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
